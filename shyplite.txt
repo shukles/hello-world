@@ -1,0 +1,47 @@
+
+
+Ans 1.const myObj=JSON.stringify(studentData);
+const[]array ;
+let text="" ;
+for(var i in studentData){
+var item=studentData[i];
+for(var j in item)
+array.push(studentData.firstname+studentData.lastname);
+}
+console.log(array);
+
+Ans2.
+const myObj2=JSON.parse(studentData);
+const[]male ;
+const[]female ;
+
+for(var i in studentData){
+var item=studentData[i];
+for(var j in item)
+if(studentData.gender=="M"){
+male.push(studentData.firstname+studentData.lastname);
+}
+if(studentData.gender=="F"){
+female.push(studentData.firstName+studentData.lastname);
+}
+console.log(male);
+console.log(female);
+
+Ans 3.
+var mail format=var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+for(var i in studentData){
+var item=studentData[i];
+for(var j in item){
+if(studentData.email.value.match(mailformat)){
+alert("Valid email address");
+}
+else{
+console.log("log error message");
+
+Ans 4.studentData.sort((a,b)=> {
+return new Desc(a.date_of_birth- newDesc(b.date_of_birth) ;
+
+
+
+
+
